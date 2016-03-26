@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>deveeldb.gis-$platform$</id>
+        <id>deveeldb.gis</id>
         <version>$version$</version>
-        <title>DeveelDB GIS ($platform$)</title>
+        <title>DeveelDB GIS Module</title>
         <authors>Antonello Provenzano</authors>
         <owners>antonello</owners>
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
         <projectUrl>http://github.com/deveel/deveeldb-gis</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>This is the GIS module of DeveelDB SQL System for $platform$ Architecture.
+        <description>This is the GIS module of DeveelDB SQL System to provide spatial features to the kernel.</description>
         <releaseNotes></releaseNotes>
         <copyright>(c) 2010-2016 Deveel</copyright>
-        <tags>sql db database data embedded deveel sql-92 sql-99 select query mono $platform$ gis sfs geo spatial</tags>
+        <tags>sql db database data embedded deveel sql-92 sql-99 select query mono gis sfs geo spatial</tags>
     </metadata>
     <files>
         <file src="..\dist\$platform$\deveeldb.gis.dll" target="lib\net35\deveeldb.gis.dll" />
