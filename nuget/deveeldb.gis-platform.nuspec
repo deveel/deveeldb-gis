@@ -14,6 +14,9 @@
         <copyright>(c) 2010-2016 Deveel</copyright>
         <tags>sql db database data embedded deveel sql-92 sql-99 select query mono $platform$ gis sfs geo spatial</tags>
     </metadata>
+	<dependencies>
+		<dependency id="deveeldb-$platform$" version="2.0.7"/>
+	</dependencies>
     <files>
         <file src="..\dist\$platform$\deveeldb.gis.dll" target="lib\net35\deveeldb.gis.dll" />
         <file src="..\dist\$platform$\deveeldb.gis.pdb" target="lib\net35\deveeldb.gis.pdb" />
